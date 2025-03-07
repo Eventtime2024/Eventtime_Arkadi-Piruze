@@ -1,0 +1,1032 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+#myAudio{
+    display: none;
+}
+.ds_block{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section1{
+    width: 100%;
+    display: flex;
+    background-image: url("../img/pir.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+     position: fixed;
+     box-sizing: border-box;
+     height: 100vh;  
+     -webkit-background-size: cover ;
+     -o-background-size: cover ;
+     -moz-background-size: cover ;
+}
+.section1_part1{
+width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-end;
+ padding-bottom: 60px;
+ box-sizing: border-box;
+  height:100vh;
+}
+.name{
+font-family: font3;
+text-align: center;
+font-size: 60px;
+margin-bottom: 0;
+color: #ebd8d8;
+}
+.tillwedding{
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    margin: 0!important;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bgblack{
+    background-color: rgb(0, 0, 0,0.80);
+    height: 100%;
+    z-index: 33;
+    padding: 30px 80px;
+    box-sizing: border-box;
+}
+#group{
+    display: flex;
+   width: 80%;
+  justify-content: space-between;
+ }
+  #group span{
+    font-size:30px;
+    color: #fff;
+    font-weight: 600;
+}
+.dsflex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.wedding_img1{
+    width: 300px;
+    height: 400px;
+}
+.down{
+    width: 30px;
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    height:30px;
+    margin-top: 0;
+    animation: anim_down 2s infinite linear;
+}
+.section2{
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:100vh;
+    z-index: 100000000;
+ 
+}
+.section2_text p{
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.section2_text {
+    width: 60%;
+}
+.wedding_img2{
+    width: 150px;
+    height: 180px;
+  margin-top: -150px;
+  margin-left: 230px;
+ 
+}
+.dsflex_spacebtw{
+    display: flex;
+    justify-content: space-between;
+}
+.section3{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.date{
+    font-size: 32px;
+    line-height: 2;
+    font-weight: 600;
+    font-family: whisper;
+    text-align: justify;
+    color: #fff;
+    text-align: center;
+}
+
+.dsflex_jscenter{
+    display: flex;
+    justify-content: center;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsflex_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timing{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+    font-family:font2;
+    text-align: justify;
+    color: #fff;
+}
+.ring_icon{
+    width: 80px;
+    height: 80px;
+}
+.links{
+    text-decoration: none!important;
+    color: #fff!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #fff;
+    width: 100px;
+    height: 30px; 
+    font-size: 13px;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+.links:hover{
+    background-color: #fff;
+    color:#000!important;
+}
+.address{
+    font-size: 16px;
+    margin:0;
+    color: #fff;
+    font-style: italic;
+}
+.zags{
+    width: 400px;
+    height: 300px;
+    margin: 30px 0 0;
+    filter: grayscale(95%);
+}
+.photo_icon{
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+}
+.champ_icon{
+    width: 200px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-image: url("../img/icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.logo a{
+    width: 100%
+}
+
+.invitetext{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color:#fff;
+    margin: 30px 0;
+}
+.radio-part{
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+label{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+   color: #fff;
+   line-height: 15px;
+    margin: 0 ;
+    margin-left: 15px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:  #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #545252;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #fff;
+}
+.guest{
+    border:none;
+    background:transparent;
+    width: 100%;
+    padding: 20px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid #545252;
+}
+.mr30{
+    margin:30px 0;
+}
+.send{
+    background: transparent;
+}
+input:focus{
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+input{
+    font-weight: 600;
+}
+::-webkit-input-placeholder {  
+    color: #fff!important;
+    font-weight: 400;
+  }
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:  #ccc!important;
+    outline: 1px solid #ccc!important;
+  }
+  .lastpart{
+padding: 30px 100px;
+     
+  }
+  .lasttext{ 
+     font-size: 26px;
+  margin:0;
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  margin:40px 0 20px;
+    color: #fff;
+  }
+  .names{
+    font-size: 34px;
+    font-family: whisper;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+  }
+  .site{
+    text-decoration: none!important;
+    color: #fff!important;
+    font-family: font2;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+@keyframes anim_down {
+    0%{
+        bottom: 10%;
+    }
+    50%{
+        bottom: 12%;
+    }
+    100%{
+        bottom: 10%;
+    }
+}
+@keyframes anim_down2 {
+    0%{
+        bottom: 5%;
+    }
+    50%{
+        bottom: 8%;
+    }
+    100%{
+        bottom: 5%;
+    }
+}
+
+@media(min-width:1920px){
+    .lasttext{  font-size: 46px;
+        margin:0;
+        color: #fff;
+        font-style: italic;
+        text-align: center;
+        margin:40px 0 20px;
+          color: #fff;
+        }
+        .names{
+          font-size: 64px;
+
+        }
+    .section1{
+        background-size: 100%;
+      
+    }
+    .wedding_img1 {
+        width: 600px;
+        height: 700px;
+    }
+    .wedding_img2{
+        width: 418px;
+        height: 550px;
+        margin-top: -132px;
+        margin-left: 309px;
+    }
+    .section2_text p {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .date {
+        font-size: 60px;
+    }
+    #group span {
+        font-size: 80px;
+    }
+    #group {
+      margin-top: 60px;
+    }
+     
+    .tillwedding {
+        font-size: 80px;
+       
+    }
+ 
+    .timing {
+        font-size: 45px;
+    }
+    .ring_icon {
+        width: 150px;
+        height: 150px;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .zags {
+        width: 850px;
+        height: 700px;
+    }
+    .links {
+        width: 300px;
+        height: 100px;
+        font-size: 36px;
+    }
+    .photo_icon {
+        width: 150px;
+        height: 150px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width: 500px;
+        height: 300px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
+     
+        font-size: 34px;
+    }
+    .guest {
+        font-size: 36px;   
+         padding: 45px 20px;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;            
+    }
+    .lastpart{
+        padding: 30px 300px;
+             
+          }
+}
+
+
+@media(min-width:1660px) and (max-width:1920px){
+    .lasttext{  
+        font-size: 36px;
+        }
+        .names{
+          font-size: 44px;
+        }
+    .section1{
+        background-position: top -150px left 0;
+      
+    }
+    
+    .wedding_img1 {
+        width: 500px;
+        height: 600px;
+    }
+    .wedding_img2{
+        width: 380px;
+        height: 460px;
+        margin-top: -132px;
+        margin-left: 309px;
+    }
+    .section2_text p {
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .date {
+        font-size: 40px;
+    }
+    #group span {
+        font-size: 45px;
+    }
+    .tillwedding {
+        font-size: 50px;
+    }
+
+    .timing {
+        font-size: 45px;
+    }
+    .ring_icon {
+        width: 120px;
+        height: 120px;
+    }
+    .address {
+        font-size: 40px;
+    }
+    .zags {
+        width: 830px;
+        height: 640px;
+    }
+    .links {
+        width: 260px;
+        height: 70px;
+        font-size: 28px;
+    }
+    .photo_icon {
+        width: 150px;
+        height: 150px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width: 500px;
+        height: 300px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
+        font-size: 28px;
+    }
+ 
+    .guest {
+        font-size: 26px;
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 180px;
+        height: 180px;            
+    }
+    .lastpart{
+        padding: 30px 300px;
+    }
+}
+
+@media(min-width:1440px) and (max-width:1660px){
+    .section1{
+        background-position:top -140px left 0;
+      
+    }
+    .wedding_img1 {
+        width: 500px;
+        height: 600px;
+    }
+    .wedding_img2{
+        width: 280px;
+        height: 340px;
+        margin-top: -132px;
+        margin-left: 309px;
+    }
+    .section2_text p {
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .date {
+        font-size: 40px;
+    }
+    #group span {
+        font-size: 38px;
+    }
+    .tillwedding {
+        font-size: 50px;
+    }
+
+    .timing {
+        font-size: 34px;
+    }
+    .ring_icon {
+        width: 100px;
+        height: 100px;
+    }
+    .address {
+        font-size: 32px;
+    }
+    .zags {
+        width: 600px;
+        height: 400px;
+    }
+    .links {
+        width: 240px;
+        height: 57px;
+        font-size: 28px;
+    }
+    .photo_icon {
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+    }
+    .champ_icon {
+        width:300px;
+        height: 230px;
+    }
+    .invitetext {
+        font-size: 36px;
+        margin-bottom: 100px;    
+    }
+    label {
+        font-size: 24px;
+    }
+
+    .guest {
+        font-size: 26px;
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;            
+    }
+    .lastpart{
+        padding: 30px 150px;
+    }
+}
+
+
+@media(min-width:1024px) and (max-width:1144px){
+    .section1{
+        background-position:top -100px left 0;
+      
+    }
+    .wedding_img1 {
+        width: 380px;
+        height: 480px;
+    }
+    .wedding_img2{
+        width: 250px;
+        height: 300px;
+        margin-top: -143px;
+        margin-left: 250px;
+    }
+    .section2_text p {
+        font-size: 23px;
+        margin-left: 30px;
+    }
+    .date {
+        font-size: 30px;
+    }
+    #group span {
+        font-size: 26px;
+    }
+    .tillwedding {
+        font-size: 30px;
+    }
+
+
+    .timing {
+        font-size: 28px;
+    }
+    .ring_icon {
+        width: 70px;
+        height: 70px;
+    }
+    .address {
+        font-size: 24px;
+    }
+    .zags {
+        width: 450px;
+        height: 320px;
+    }
+    .links {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .photo_icon {
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+    }
+    .champ_icon {
+        width: 255px;
+        height: 200px;
+    }
+    .invitetext {
+        font-size: 24px;
+        margin-bottom: 80px; 
+    }
+    label {
+        font-size: 24px;
+    }
+
+    .guest {
+        font-size: 22px;
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;            
+    }
+    .lastpart{
+        padding: 30px 90px;
+    }
+    }
+
+    @media(min-width:920px) and (max-width:1024px){
+.lasttext{  
+   font-size: 22px;
+  }
+  .names{
+   font-size: 28px;
+ }       
+ 
+ .wedding_img1 {
+    width: 250px;
+     height: 330px;
+ }
+  .wedding_img2{
+    width: 180px;
+    height: 200px;
+     margin-top: -130px;
+      margin-left: 203px;
+  }
+  .section2_text p {
+ font-size: 22px;
+  margin-left: 30px;
+  }
+  .date {
+font-size: 28px;
+ }
+  #group span {
+    font-size: 22px;
+ }
+  .tillwedding {
+font-size: 26px;
+}
+
+.timing {
+  font-size: 24px;
+ }
+  .ring_icon {
+  width: 70px;
+   height: 70px;
+}
+  .address {
+font-size: 22px;
+ padding: 0 30px;
+  text-align: center;
+ }
+  .zags {
+  width: 330px;
+  height: 230px;
+  }
+  .links {
+ width: 150px;
+ height: 35px;
+font-size: 16px;
+}
+ .photo_icon {
+  width: 70px;
+  height: 70px;
+ margin-top: 30px;
+  }
+  .champ_icon {
+  width: 255px;
+  height: 170px;
+   }
+.section3 {
+  padding: 60px 80px;
+}
+.invitetext {
+ font-size: 24px;
+    margin-bottom: 80px; 
+   font-weight: 600;   
+     }
+  label {
+   font-size: 20px;
+ }
+    
+ .guest {
+     font-size: 22px;
+     padding: 30px 20px;
+    font-weight: 500;
+ }
+  .logo{
+    width: 80px;
+   height: 80px;           
+    }
+  .lastpart{
+   padding: 30px 90px;
+ }
+
+  }
+
+  @media(min-width:768px) and (max-width:920px){
+    .page{
+        background-position: top center;
+    }
+    .lasttext{  
+        font-size: 16px;
+        margin-bottom: 15px;
+        }
+        .names{
+          font-size: 24px;
+        }
+ 
+    .bgblack{
+        padding: 30px 60px;
+    }
+   .wedding_img1 {
+    width: 200px;
+    height: 270px;
+   }
+    .wedding_img2{
+        width: 150px;
+        height: 165px;
+        margin-top: -131px;
+        margin-left: 178px;
+    }
+    .section2_text p {
+   font-size: 17px;
+    margin-left: 30px;
+    }
+    .date {
+  font-size: 24px;
+   }
+    #group span {
+      font-size: 18px;
+   }
+    .tillwedding {
+  font-size: 22px;
+  }
+  
+  .timing {
+    font-size: 18px;
+   }
+    .ring_icon {
+    width: 60px;
+     height: 60px;
+  }
+    .address {
+  font-size: 16px;
+   padding: 0 30px;
+    text-align: center;
+   }
+    .zags {
+    width: 300px;
+    height: 200px;
+    }
+    .links {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+  }
+   .photo_icon {
+    width: 60px;
+    height: 60px;
+   margin-top: 30px;
+    }
+    .champ_icon {
+    width: 255px;
+    height: 130px;
+     }
+  .section3 {
+    padding: 60px 80px;
+  }
+  .invitetext {
+   font-size: 22px;
+      margin-bottom: 60px; 
+     font-weight: 500;   
+  }
+  .radio-part{
+    padding: 0;
+  }
+    label {
+     font-size: 18px;
+   }
+  .mr30{
+    margin-bottom: 0;
+  }
+   .guest {
+       font-size: 16px;
+       padding: 30px 20px;
+      font-weight: 500;
+   }
+    .logo{
+      width: 80px;
+     height: 80px;           
+      }
+    .lastpart{
+     padding: 30px 60px;
+   }
+    }
+  
+    @media(min-width:320px) and (max-width:768px){
+     .section1{
+    
+    background-position:top 0px left 45%;
+     }
+     .section1_part1{
+        padding-bottom: 150px;
+     }
+   .lasttext{  
+      font-size: 16px;
+    margin-bottom: 10px;
+   }
+    .names{
+   font-size: 22px;
+   margin: 0;
+    }
+
+  .bgblack{
+  padding: 30px 40px;
+ }
+  #group {
+  width: 90%;
+  }
+    .wedding_img1 {
+  width: 220px;
+  height: 270px;
+ }
+ .wedding_img2{
+width: 120px;
+height: 140px;
+ margin-top:-30px;
+ margin-left: 50px;
+}
+ .dsflex_spacebtw{
+ flex-direction: column;
+ align-items: center;
+}
+ .section2_text p {
+ font-size: 16px;
+  margin-left: 0px;
+  }
+  .section2_text {
+ width: 100%;
+}
+  .date {
+     font-size: 20px;
+    margin-top: 30px;
+}
+ #group span {
+  font-size: 18px;
+}
+ .tillwedding {
+    margin-bottom: 20px!important;
+ font-size: 22px;
+ }
+
+ .timing {
+ font-size: 16px;
+text-align: center;
+margin-bottom: 0;
+ }
+  .ring_icon {
+ width: 50px;
+ height:50px;
+ }
+.address {
+ font-size: 16px;
+padding: 0 30px;
+ text-align: center;
+ }
+ .zags {
+  width: 260px;
+  height: 190px;
+  }
+.links {
+ width: 130px;
+ height: 26px;
+  font-size: 12px;
+}
+  .photo_icon {
+ width: 50px;
+  height: 50px;
+ margin-top: 30px;
+ }
+    .champ_icon {
+   width: 255px;
+ height: 115px;
+   }
+  .section3 {
+   padding: 60px 80px;
+ }
+    .invitetext {
+ font-size: 18px;
+ margin-bottom: 40px; 
+ font-weight: 500;   
+ }
+ .radio-part{
+   padding: 0;
+  justify-content: center;
+   }
+
+ .mr30{
+  margin-bottom: 0;
+ }
+ .mr40 {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+ }
+  .guest {
+  font-size: 14px;
+ padding: 15px 20px;
+  font-weight: 500;
+ }
+ .logo{
+   width: 60px;
+   height: 60px; 
+   border-color: 1px solid black;          
+    }
+   .lastpart{
+     padding: 0;
+     }
+     .radio-part{
+    flex-direction: column;
+    }
+ 
+}         
+
+@media(max-width:450px){
+    .bgblack{
+        padding: 30px 20px;
+    }
+
+ 
+}
