@@ -20,7 +20,13 @@ body{
     width: 100%;
     height: 100%;
 }
-
+.bgb{
+    background-color: rgb(0, 0, 0,0.60);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
 .section1{
     width: 100%;
     display: flex;
@@ -944,11 +950,11 @@ height: 140px;
     margin-top: 30px;
 }
  #group span {
-  font-size: 18px;
+  font-size: 24px;
 }
  .tillwedding {
     margin-bottom: 20px!important;
- font-size: 22px;
+ font-size: 26px;
  }
 
  .timing {
