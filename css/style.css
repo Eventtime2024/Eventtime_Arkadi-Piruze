@@ -1,8 +1,28 @@
+@font-face {
+    font-family: dance;
+    src: url("../font/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: dzeragir;
+    src: url("../font/SHK_Dzeragir.otf");
+}
+
 *{
     padding: 0;
     margin: 0;
 }
-
+.number{
+    font-family:dance;
+ font-size: 28px!important;
+ margin-bottom: 5px;
+}
+.groupname{
+    font-family:dzeragir;
+    font-size: 30px;
+}
+.mb30  {
+    margin-bottom: 30px;
+ }
 img{
     width: 100%;
     vertical-align: middle;
@@ -21,7 +41,7 @@ body{
     height: 100%;
 }
 .bgb{
-    background-color: rgb(0, 0, 0,0.15);
+    background-color: rgb(0, 0, 0,0.60);
     display: flex;
     flex-direction: column;
    align-items: center;
@@ -59,18 +79,16 @@ margin-bottom: 0;
 color: #ebd8d8;
 }
 .tillwedding{
-    letter-spacing: 2px;
     font-size: 28px;
-    font-weight: 800;
+    font-family:dzeragir;
     text-align: center;
     color: #fff;
     margin: 0!important;
     justify-content: space-between;
     box-sizing: border-box;
-    font-style: italic;
 }
 .bgblack{
-    background-color: rgb(0, 0, 0,0.80);
+    background-color: rgb(0, 0, 0,0.15);
     height: 100%;
     z-index: 33;
     padding: 30px 80px;
@@ -82,10 +100,7 @@ color: #ebd8d8;
   justify-content: space-between;
  }
   #group span{
-    font-size:30px;
-    color: #fff;
-    font-weight: 600;
-    font-style: italic;
+    color: #fff; 
 }
 .dsflex{
    display: flex;
@@ -115,9 +130,8 @@ color: #ebd8d8;
  
 }
 .section2_text p{
-    font-size: 22px;
-    line-height: 2;
-    font-weight: 500;
+    font-size: 42px;
+ font-family: dzeragir;
     text-align: center;
     color: #fff;
 }
@@ -142,10 +156,8 @@ color: #ebd8d8;
     box-sizing: border-box;
 }
 .date{
-    font-size: 32px;
-    line-height: 2;
-    font-weight: 600;
-    font-family: whisper;
+    font-size: 45px;
+    font-family: dance;
     text-align: justify;
     color: #fff;
     text-align: center;
@@ -174,8 +186,8 @@ color: #ebd8d8;
     color: #fff;
 }
 .ring_icon{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 .links{
     text-decoration: none!important;
@@ -338,7 +350,6 @@ padding: 30px 100px;
   .names{
     font-size: 34px;
     font-family: whisper;
-    font-weight: 600;
     text-align: center;
     color: #fff;
   }
@@ -402,7 +413,7 @@ padding: 30px 100px;
         margin-left: 309px;
     }
     .section2_text p {
-        font-size: 40px;
+        font-size: 42px;
         margin-left: 50px;
     }
     .date {
@@ -410,22 +421,25 @@ padding: 30px 100px;
     }
     #group span {
         font-size: 80px;
+        
+    }
+    .number{
+        font-variant-numeric: tabular-nums!important;
     }
     #group {
       margin-top: 60px;
     }
      
     .tillwedding {
-        font-size: 80px;
-       
+        font-size: 80px;   
     }
  
     .timing {
         font-size: 45px;
     }
     .ring_icon {
-        width: 150px;
-        height: 150px;
+        width: 190px;
+        height: 190px;
     }
     .address {
         font-size: 40px;
@@ -494,11 +508,11 @@ padding: 30px 100px;
         margin-left: 309px;
     }
     .section2_text p {
-        font-size: 36px;
+        font-size: 38px;
         margin-left: 50px;
     }
     .date {
-        font-size: 40px;
+        font-size: 45px;
     }
     #group span {
         font-size: 45px;
@@ -511,8 +525,8 @@ padding: 30px 100px;
         font-size: 45px;
     }
     .ring_icon {
-        width: 120px;
-        height: 120px;
+        width: 170px;
+        height: 170px;
     }
     .address {
         font-size: 40px;
@@ -572,11 +586,11 @@ padding: 30px 100px;
         margin-left: 309px;
     }
     .section2_text p {
-        font-size: 28px;
+        font-size: 30px;
         margin-left: 50px;
     }
     .date {
-        font-size: 40px;
+        font-size: 45px;
     }
     #group span {
         font-size: 38px;
@@ -589,8 +603,8 @@ padding: 30px 100px;
         font-size: 34px;
     }
     .ring_icon {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
     }
     .address {
         font-size: 32px;
@@ -651,11 +665,11 @@ padding: 30px 100px;
         margin-left: 250px;
     }
     .section2_text p {
-        font-size: 23px;
+        font-size: 27px;
         margin-left: 30px;
     }
     .date {
-        font-size: 30px;
+        font-size: 45px;
     }
     #group span {
         font-size: 26px;
@@ -663,14 +677,12 @@ padding: 30px 100px;
     .tillwedding {
         font-size: 30px;
     }
-
-
     .timing {
         font-size: 28px;
     }
     .ring_icon {
-        width: 70px;
-        height: 70px;
+        width: 140px;
+        height: 140px;
     }
     .address {
         font-size: 24px;
@@ -733,25 +745,25 @@ padding: 30px 100px;
       margin-left: 203px;
   }
   .section2_text p {
- font-size: 22px;
+ font-size: 25px;
   margin-left: 30px;
   }
   .date {
-font-size: 28px;
+    font-size: 45px;
  }
   #group span {
     font-size: 22px;
  }
   .tillwedding {
-font-size: 26px;
+font-size: 30px;
 }
 
 .timing {
   font-size: 24px;
  }
   .ring_icon {
-  width: 70px;
-   height: 70px;
+  width: 130px;
+   height: 130px;
 }
   .address {
 font-size: 22px;
@@ -829,11 +841,11 @@ font-size: 16px;
         margin-left: 178px;
     }
     .section2_text p {
-   font-size: 17px;
+   font-size: 20px;
     margin-left: 30px;
     }
     .date {
-  font-size: 24px;
+        font-size: 45px;
    }
     #group span {
       font-size: 18px;
@@ -846,8 +858,8 @@ font-size: 16px;
     font-size: 18px;
    }
     .ring_icon {
-    width: 60px;
-     height: 60px;
+    width: 100px;
+     height: 100px;
   }
     .address {
   font-size: 16px;
@@ -912,11 +924,13 @@ font-size: 16px;
         padding-bottom: 150px;
      }
    .lasttext{  
-      font-size: 16px;
+      font-size: 24px;
     margin-bottom: 10px;
    }
     .names{
-   font-size: 22px;
+   font-size: 26px;
+   font-family: dance;
+  font-style: italic;
    margin: 0;
     }
 
@@ -924,7 +938,7 @@ font-size: 16px;
   padding: 30px 40px;
  }
   #group {
-  width: 90%;
+  width: 75%;
   }
     .wedding_img1 {
   width: 220px;
@@ -941,32 +955,34 @@ height: 140px;
  align-items: center;
 }
  .section2_text p {
- font-size: 16px;
+ font-size: 20px;
   margin-left: 0px;
+  line-height: 1.5;
   }
   .section2_text {
  width: 100%;
 }
   .date {
-     font-size: 20px;
+     font-size: 45px;
     margin-top: 30px;
 }
- #group span {
-  font-size: 22px;
-}
+ 
  .tillwedding {
     margin-bottom: 20px!important;
- font-size: 24px;
+ font-size: 46px;
  }
-
+.number{
+    font-size: 34px!important;
+}
  .timing {
- font-size: 16px;
+ font-size: 18px;
 text-align: center;
+font-weight: 700;
 margin-bottom: 0;
  }
   .ring_icon {
- width: 50px;
- height:50px;
+ width: 100px;
+ height:100px;
  }
 .address {
  font-size: 16px;
@@ -992,7 +1008,7 @@ padding: 0 30px;
  height: 115px;
    }
   .section3 {
-   padding: 60px 80px;
+   padding: 60px 15px;
  }
     .invitetext {
  font-size: 18px;
