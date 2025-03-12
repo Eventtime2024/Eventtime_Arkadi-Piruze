@@ -978,7 +978,7 @@ height: 140px;
  font-size: 20px;
 text-align: center;
 font-weight: 700;
-margin-bottom: 0;
+margin-bottom: 5px;
  }
   .ring_icon {
  width: 100px;
@@ -986,7 +986,7 @@ margin-bottom: 0;
  }
 .address {
  font-size: 16px;
- white-space: nowrap;
+  white-space: nowrap;
 padding: 0 30px;
  text-align: center;
  }
@@ -1045,7 +1045,9 @@ margin-bottom: 20px;
      .radio-part{
     flex-direction: column;
     }
- 
+ .oclock{
+    font-size: 26px;
+ }
 }         
 
 @media(max-width:450px){
