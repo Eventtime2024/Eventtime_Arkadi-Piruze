@@ -88,7 +88,7 @@ color: #ebd8d8;
     box-sizing: border-box;
 }
 .bgblack{
-    background-color: rgb(0, 0, 0,0.70);
+    background-color: rgb(0, 0, 0,0.75);
     height: 100%;
     z-index: 33;
     padding: 30px 80px;
