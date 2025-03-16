@@ -676,7 +676,7 @@ padding: 30px 100px;
         height: 140px;
     }
     .address {
-        font-size: 24px;
+        font-size: 32px;
     }
     .zags {
         width: 450px;
@@ -752,7 +752,7 @@ font-size: 30px;
    height: 130px;
 }
   .address {
-font-size: 22px;
+font-size: 30px;
  padding: 0 30px;
   text-align: center;
  }
@@ -843,7 +843,7 @@ font-size: 16px;
      height: 100px;
   }
     .address {
-  font-size: 16px;
+  font-size: 26px;
    padding: 0 30px;
     text-align: center;
    }
