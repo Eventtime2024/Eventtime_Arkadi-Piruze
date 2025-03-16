@@ -146,13 +146,7 @@ color: #ebd8d8;
 .section2_text {
     width: 60%;
 }
-.wedding_img2{
-    width: 150px;
-    height: 180px;
-  margin-top: -150px;
-  margin-left: 230px;
- 
-}
+
 .dsflex_spacebtw{
     display: flex;
     justify-content: space-between;
@@ -187,10 +181,13 @@ color: #ebd8d8;
 }
 .timing{
     font-size: 20px;
-    font-weight: 500;
-    font-family:font2;
     text-align: center;
+   font-family: kotayk;
     color: #fff;
+}
+.jam{
+    font-family: serif!important;
+
 }
 .ring_icon{
     width: 120px;
@@ -217,7 +214,8 @@ color: #ebd8d8;
     font-size: 16px;
     margin:0;
     color: #fff;
-    font-style: italic;
+font-family: dzeragir;
+    font-weight: 500;
 }
 .zags{
     width: 400px;
@@ -329,7 +327,7 @@ input:focus{
 }
 input{
     font-weight: 600;
-     color: #fff;
+    color: #fff;
 }
 ::-webkit-input-placeholder {  
     color: #fff!important;
@@ -349,8 +347,9 @@ padding: 30px 100px;
   .lasttext{ 
      font-size: 26px;
   margin:0;
+  font-family: kotayki;
   color: #fff;
-  font-style: italic;
+  
 
   text-align: center;
   margin:40px 0 20px;
@@ -370,6 +369,9 @@ padding: 30px 100px;
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 20px;
+}
+.site1{
+    font-style: italic;
 }
 @keyframes anim_down {
     0%{
@@ -415,12 +417,7 @@ padding: 30px 100px;
         width: 600px;
         height: 700px;
     }
-    .wedding_img2{
-        width: 418px;
-        height: 550px;
-        margin-top: -132px;
-        margin-left: 309px;
-    }
+  
     .section2_text p {
         font-size: 42px;
         margin-left: 50px;
@@ -510,12 +507,7 @@ padding: 30px 100px;
         width: 500px;
         height: 600px;
     }
-    .wedding_img2{
-        width: 380px;
-        height: 460px;
-        margin-top: -132px;
-        margin-left: 309px;
-    }
+ 
     .section2_text p {
         font-size: 38px;
         margin-left: 50px;
@@ -588,12 +580,7 @@ padding: 30px 100px;
         width: 500px;
         height: 600px;
     }
-    .wedding_img2{
-        width: 280px;
-        height: 340px;
-        margin-top: -132px;
-        margin-left: 309px;
-    }
+   
     .section2_text p {
         font-size: 30px;
         margin-left: 50px;
@@ -667,12 +654,7 @@ padding: 30px 100px;
         width: 380px;
         height: 480px;
     }
-    .wedding_img2{
-        width: 250px;
-        height: 300px;
-        margin-top: -143px;
-        margin-left: 250px;
-    }
+  
     .section2_text p {
         font-size: 27px;
         margin-left: 30px;
@@ -744,15 +726,10 @@ padding: 30px 100px;
  }       
  
  .wedding_img1 {
-    width: 250px;
-     height: 330px;
+    width: 300px;
+     height: 420px;
  }
-  .wedding_img2{
-    width: 180px;
-    height: 200px;
-     margin-top: -130px;
-      margin-left: 203px;
-  }
+
   .section2_text p {
  font-size: 25px;
   margin-left: 30px;
@@ -840,15 +817,10 @@ font-size: 16px;
         padding: 30px 60px;
     }
    .wedding_img1 {
-    width: 200px;
-    height: 270px;
+    width: 300px;
+    height: 420px;
    }
-    .wedding_img2{
-        width: 150px;
-        height: 165px;
-        margin-top: -131px;
-        margin-left: 178px;
-    }
+ 
     .section2_text p {
    font-size: 20px;
     margin-left: 30px;
@@ -933,7 +905,7 @@ font-size: 16px;
         padding-bottom: 150px;
      }
    .lasttext{  
-      font-size: 24px;
+      font-size: 22px;
     margin-bottom: 10px;
    }
     .names{
@@ -949,15 +921,12 @@ font-size: 16px;
   width: 75%;
   }
     .wedding_img1 {
-  width: 220px;
-  height: 270px;
+  width: 290px;
+  height: 400px;
  }
- .wedding_img2{
-width: 120px;
-height: 140px;
- margin-top:-30px;
- margin-left: 50px;
-}
+ .wedding_img1 img{
+    border-radius: 15px;
+ }
  .dsflex_spacebtw{
  flex-direction: column;
  align-items: center;
@@ -986,18 +955,19 @@ height: 140px;
  .timing {
  font-size: 20px;
 text-align: center;
-font-weight: 700;
-margin-bottom: 5px;
+margin-bottom: 5px!important;
+
  }
   .ring_icon {
  width: 100px;
  height:100px;
  }
 .address {
- font-size: 16px;
+ font-size: 22px;
   white-space: nowrap;
 padding: 0 30px;
  text-align: center;
+
  }
  .zags {
   width: 260px;
@@ -1054,7 +1024,7 @@ margin-bottom: 20px;
      .radio-part{
     flex-direction: column;
     }
- .oclock{
+ .jam{
     font-size: 26px;
  }
 }         
