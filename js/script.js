@@ -44,7 +44,7 @@ function sendMail(e) {
       guestnumber: document.getElementById("guestnumber").value,
   };
 
-  const serviceID = "sservice_xof245";
+  const serviceID = "service_xof245";
   const templateID = "template_o30tlw9";
   emailjs
       .send(serviceID, templateID, params)
