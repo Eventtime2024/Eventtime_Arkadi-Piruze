@@ -6,11 +6,19 @@
     font-family: dzeragir;
     src: url("../font/SHK_Dzeragir.otf");
 }
-
+@font-face {
+    font-family: kotayk;
+    src: url("../font/Kotayk-Regular.ttf");
+}
+@font-face {
+    font-family: kotayki;
+    src: url("../font/Kotayk-Italic.ttf");
+}
 *{
     padding: 0;
     margin: 0;
 }
+
 .number{
     font-family:dance;
  font-size: 28px!important;
@@ -157,8 +165,8 @@ color: #ebd8d8;
 }
 .date{
     font-size: 45px;
-    font-family: dance;
     text-align: justify;
+    font-style: italic;
     color: #fff;
     text-align: center;
 }
@@ -181,7 +189,7 @@ color: #ebd8d8;
     font-size: 20px;
     font-weight: 500;
     font-family:font2;
-    text-align: justify;
+    text-align: center;
     color: #fff;
 }
 .ring_icon{
@@ -342,13 +350,14 @@ padding: 30px 100px;
   margin:0;
   color: #fff;
   font-style: italic;
+
   text-align: center;
   margin:40px 0 20px;
     color: #fff;
   }
   .names{
     font-size: 34px;
-    font-family: whisper;
+    font-family: kotayki;
     text-align: center;
     color: #fff;
   }
@@ -928,9 +937,8 @@ font-size: 16px;
    }
     .names{
    font-size: 26px;
-   font-family: dance;
-  font-style: italic;
    margin: 0;
+  font-family: kotayki;
     }
 
   .bgblack{
