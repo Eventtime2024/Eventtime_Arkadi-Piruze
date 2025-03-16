@@ -329,6 +329,7 @@ input:focus{
 }
 input{
     font-weight: 600;
+     color: #fff;
 }
 ::-webkit-input-placeholder {  
     color: #fff!important;
