@@ -22,12 +22,13 @@ function counts(){
  $("#h").text(formatted_hours) ;
   $("#m").text(formatted_minutes);
   $("#s").text(formatted_seconds);
-  if (gap <= 0) {
-    $("#d").text("00");
-    $("#h").text("00");
-    $("#m").text("00");
-    $("#s").text("00");
-  } 
+  if(gap<0){
+    $("#tillwedding").html("<p>Մեր հարսանիքի օրը"+"<br>"+"25.04.25</p>")
+    $("#group").text(" ")
+  }
+  if(days<2){
+   $(".lastpart").css("display","none")
+  }
  
 
 }
