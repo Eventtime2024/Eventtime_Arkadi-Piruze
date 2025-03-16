@@ -1,9 +1,9 @@
 $(window).on( 'load', function() {
     $('html, body').animate({scrollTop : 0});
     });
-$(document).on("contextmenu", function(e) {
-    e.preventDefault();
-});
+// $(document).on("contextmenu", function(e) {
+//     e.preventDefault();
+// });
 
 let date=new Date("April 25 2025 00:00:00");
 function counts(){
