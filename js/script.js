@@ -34,6 +34,8 @@ function counts(){
 counts();
 setInterval(counts,1000);
 
+
+
 function sendMail(e) {
 
   let params = {
@@ -42,7 +44,7 @@ function sendMail(e) {
       guestnumber: document.getElementById("guestnumber").value,
   };
 
-  const serviceID = "sservice_xof245b";
+  const serviceID = "sservice_xof245";
   const templateID = "template_o30tlw9";
   emailjs
       .send(serviceID, templateID, params)
@@ -60,7 +62,7 @@ function sendMail(e) {
 const sendMailbtn = document.querySelector("#sendMail");
 
 sendMailbtn.addEventListener("click", (e) => {
-  e.preventDefault()
+  e.preventDefault();
   sendMail();
- alert("Ուղարկված է։");
+ alert("Ուղարկված է");
 });
