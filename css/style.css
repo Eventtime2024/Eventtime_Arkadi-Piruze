@@ -364,15 +364,12 @@ padding: 30px 100px;
   .site{
     text-decoration: none!important;
     color: #fff!important;
-    font-family: font2;
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.site1{
-    font-style: italic;
-}
+
 @keyframes anim_down {
     0%{
         bottom: 10%;
@@ -676,7 +673,7 @@ padding: 30px 100px;
         height: 140px;
     }
     .address {
-        font-size: 32px;
+        font-size: 24px;
     }
     .zags {
         width: 450px;
@@ -752,7 +749,7 @@ font-size: 30px;
    height: 130px;
 }
   .address {
-font-size: 30px;
+font-size: 22px;
  padding: 0 30px;
   text-align: center;
  }
@@ -843,7 +840,7 @@ font-size: 16px;
      height: 100px;
   }
     .address {
-  font-size: 26px;
+  font-size: 24px;
    padding: 0 30px;
     text-align: center;
    }
@@ -924,7 +921,7 @@ font-size: 16px;
   width: 290px;
   height: 400px;
  }
-
+ 
  .dsflex_spacebtw{
  flex-direction: column;
  align-items: center;
